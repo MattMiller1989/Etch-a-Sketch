@@ -11,3 +11,12 @@ for(let x=0;x<16;x++){
         });
     }
 }
+
+function resetPixels(){
+
+     var currDivs=document.getElementsByClassName('grid-square');
+     for(var x=0;x<currDivs.length;x++){
+         currDivs[x].style.backgroundColor="white";
+     }
+    
+}
